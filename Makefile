@@ -1,5 +1,5 @@
-test:
+compose-test:
 	docker-compose -f docker-compose.yml up --abort-on-container-exit --exit-code-from app
 
-run:
+compose-run:
 	docker-compose up
